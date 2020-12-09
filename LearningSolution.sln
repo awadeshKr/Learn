@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehaviourPattern", "BehaviourPattern", "{DDB09199-794C-4A86-AD5C-69D956B26054}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behaviour.ObeserverPattern", "Behaviour.ObeserverPattern\Behaviour.ObeserverPattern.csproj", "{3179BDBB-8A3F-466D-9F5C-984DB214B672}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPattern", "DesignPattern", "{1CAC9D74-9223-4427-9E71-48574DBF7662}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{F8F50F31-202C-48CD-AA29-02DDABD491BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorMisc", "ConstructorMisc\ConstructorMisc.csproj", "{415FEFC3-FB81-437B-84BF-989BEA603EA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3179BDBB-8A3F-466D-9F5C-984DB214B672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3179BDBB-8A3F-466D-9F5C-984DB214B672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3179BDBB-8A3F-466D-9F5C-984DB214B672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3179BDBB-8A3F-466D-9F5C-984DB214B672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{415FEFC3-FB81-437B-84BF-989BEA603EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415FEFC3-FB81-437B-84BF-989BEA603EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415FEFC3-FB81-437B-84BF-989BEA603EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415FEFC3-FB81-437B-84BF-989BEA603EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDB09199-794C-4A86-AD5C-69D956B26054} = {1CAC9D74-9223-4427-9E71-48574DBF7662}
+		{3179BDBB-8A3F-466D-9F5C-984DB214B672} = {DDB09199-794C-4A86-AD5C-69D956B26054}
+		{415FEFC3-FB81-437B-84BF-989BEA603EA8} = {F8F50F31-202C-48CD-AA29-02DDABD491BA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAF2AD66-DBE8-458B-A6B9-7C0A95118559}
+	EndGlobalSection
+EndGlobal
