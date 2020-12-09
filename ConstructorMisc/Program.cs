@@ -7,7 +7,7 @@ namespace ConstructorMisc
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            TestA b = new TestC();
+            TestA a = new TestC();
             Console.ReadKey();
         }
     }

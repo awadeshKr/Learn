@@ -9,15 +9,23 @@ namespace ConstructorMisc
         public TestA()
         {
             Console.WriteLine("TestA");
+            this.TestA(12);
         }
         public TestA(int a)
         {
             Console.WriteLine("TestA with parama");
         }
+
+        public void a()
+        {
+            
+        }
         static TestA()
         {
             Console.WriteLine("static TestA");
         }
+
+        public static int MyProperty { get; set; }
     }
     public  class TestB:TestA
     {
@@ -39,6 +47,19 @@ namespace ConstructorMisc
         static TestC()
         {
             Console.WriteLine("static TestC");
+        }
+    }
+
+    public class ConstructorTesting
+    {
+        public ConstructorTesting(): this(10)
+        {
+            ;
+        }
+
+        public ConstructorTesting(int a)
+        {
+
         }
     }
 
